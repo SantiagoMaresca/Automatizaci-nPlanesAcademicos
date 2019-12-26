@@ -1,8 +1,7 @@
 # PlanesAcademicos
 
 # Descripción
-
-Sabor is a web application that offers recipes based on ingredient input. The user provides ingredients one by one and the application displays a list of cooking recipes based on relevance. Upon clicking a recipe further information is shown, such as ingredients needed, pictures and procedure. More details are specified below.
+ Los planes de 2014 (Informática) y 2015 (el resto de las carreras de la FIT) se elaboraron usando MS Word. Esto dió muchos problemas, dificultando el versionado y exigiendo mantener redundancias entre los documentos.
   
 # Alcance
 

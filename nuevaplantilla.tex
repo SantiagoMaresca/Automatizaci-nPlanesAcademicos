@@ -1,0 +1,77 @@
+\documentclass[xcolor=table]{article}
+\usepackage[table]{xcolor}
+\usepackage{tabularx}
+\UseRawInputEncoding
+\usepackage[latin1]{inputenc}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{longtable}
+\renewcommand{\baselinestretch}{2.0}
+\begin{document}
+	\title{\VAR{asignatura}}
+	\begin{longtable}[l]{|l|l|l|}
+		
+		\hline
+		\rowcolor[HTML]{E2DEDE} 
+		\multicolumn{3}{|c|}{\cellcolor[HTML]{E2DEDE}\textbf{{ Universidad Católica del Uruguay}}} \\ \hline
+		\endfirsthead
+		%
+		\endhead
+		%
+		{\color[HTML]{000000} \textbf{1. Carrera}} & \multicolumn{2}{p{7cm}|}{{\color[HTML]{333333}  \VAR{Carrera}}} \\ \hline
+		\textbf{2. Plan de estudios} & \multicolumn{2}{p{6cm}|}{\VAR{PlanEstudios}} \\ \hline
+		
+		& español &  \VAR{NombreEspañol} \\ \cline{2-3} 
+		\multirow{-2}{*}{\textbf{\begin{tabular}[l]{@{}l@{}}3. Nombre del curso \\ Indicar el nombre completo\end{tabular}}} & inglés &  \VAR{NombreIngles} \\ \hline
+		\textbf{4. Nombre del Docente Titular} & \multicolumn{2}{p{7cm}|}{ \VAR{Docente}} \\ \hline
+		\textbf{5. Año de la carrera en que se dicta} & \multicolumn{2}{p{7cm}|}{ \VAR{Año}} \\ \hline
+		\textbf{6. Semestre de la carrera en que se dicta} & \multicolumn{2}{l|}{ \VAR{Semestre}} \\ \hline
+		\rowcolor[HTML]{E2DEDE} 
+		\textbf{7.Previas} & \multicolumn{2}{c|}{\cellcolor[HTML]{E2DEDE}\textbf{Asignatura}} \\ \hline
+		& \multicolumn{2}{p{7cm}|}{ \VAR{Previas}} \\ \hline
+		\rowcolor[HTML]{E2DEDE} 
+		\textbf{8. Duración y valor en créditos} &  \multicolumn{1}{c|}{\cellcolor[HTML]{E2DEDE}\textbf{Horas}} & \multicolumn{1}{c|}{\cellcolor[HTML]{E2DEDE}\textbf{Créditos}} \\ \hline
+		&  \VAR{Duracion} &  \VAR{Creditos} \\ \hline
+		\rowcolor[HTML]{E2DEDE} 
+		\textbf{9. Tipo del curso} & \multicolumn{2}{c|}{\cellcolor[HTML]{E2DEDE}\textbf{Categoría}} \\ \hline
+		& \multicolumn{2}{p{7cm}|}{ \VAR{TipoCurso}} \\ \hline
+		\rowcolor[HTML]{E2DEDE} 
+		\textbf{10. Categoria del curso} & \multicolumn{1}{c|}{\cellcolor[HTML]{E2DEDE}\textbf{Colocar una cruz}} & \multicolumn{1}{p{4cm}|}{\cellcolor[HTML]{E2DEDE}\textbf{Comentarios}} \\ \hline
+		Teórica o teórica práctica &  \VAR{T1row1Col1} &   \VAR{T1row1Col2}\\ \hline
+		Prácticas o Teóricas con laboratorio &   \VAR{T1row2Col1} &  \VAR{T1row2Col2}  \\ \hline
+		Seminarios o talleres &  \VAR{T1row3Col1} &  \VAR{T1row3Col2} \\ \hline
+		Práctica Profesional o pasantía &  \VAR{T1row4Col1} &  \VAR{T4row1Col2} \\ \hline
+		Trabajo Final o memoria de tesis &  \VAR{T1row5Col1} &  \VAR{T1row5Col2} \\ \hline
+		Actividades de laboratorio &  \VAR{T1row6Col1} & \VAR{T1row6Col2}  \\ \hline
+		\rowcolor[HTML]{E2DEDE} 
+		\multicolumn{3}{|l|}{\cellcolor[HTML]{E2DEDE}\textbf{11. Resumen del curso (abstract  en español y en inglés)}} \\ \hline
+		\multicolumn{3}{|p{15cm}|}{ \VAR{Resumen}} \\ \hline
+		\rowcolor[HTML]{E2DEDE} 
+		\multicolumn{3}{|l|}{\cellcolor[HTML]{E2DEDE}\textbf{12. Objetivos}} \\ \hline
+		\multicolumn{3}{|p{15cm}|}{ \VAR{Objetivos}} \\ \hline
+		\rowcolor[HTML]{E2DEDE} 
+		\multicolumn{3}{|l|}{\cellcolor[HTML]{E2DEDE}\textbf{13. Resultado del aprendizaje}} \\ \hline
+		\multicolumn{3}{|p{15cm}|}{ \VAR{Resultados}} \\ \hline
+		\rowcolor[HTML]{E2DEDE} 
+		\multicolumn{3}{|l|}{\cellcolor[HTML]{E2DEDE}\textbf{14. Contenidos del Curso}} \\ \hline
+		\multicolumn{3}{|p{15cm}|}{ \VAR{Contenido}} \\ \hline
+		\multicolumn{3}{|l|}{\cellcolor[HTML]{E2DEDE}\textbf{15. Métodos didácticos}} \\ \hline
+		\rowcolor[HTML]{E2DEDE} 
+		\multicolumn{1}{|c|}{\cellcolor[HTML]{E2DEDE}\textbf{Métodos de aprendizaje}} & \multicolumn{2}{c|}{\cellcolor[HTML]{E2DEDE}\textbf{Descripción}} \\ \hline
+		Presentaciones magistrales & \multicolumn{2}{p{7cm}|}{ \VAR{T2row1Col2}} \\ \hline
+		Resolución de ejercicios & \multicolumn{2}{p{7cm}|}{ \VAR{T2row2Col2}} \\ \hline
+		\rowcolor[HTML]{E2DEDE} 
+		\multicolumn{3}{|l|}{\cellcolor[HTML]{E2DEDE}\textbf{16. Formas de evaluación}} \\ \hline
+		\rowcolor[HTML]{E2DEDE} 
+		\multicolumn{1}{|c|}{\cellcolor[HTML]{E2DEDE}\textbf{Formas de evaluación}} & \multicolumn{2}{c|}{\cellcolor[HTML]{E2DEDE}\textbf{Descripción}} \\ \hline
+		Proyectos & \multicolumn{2}{p{7cm}|}{ \VAR{T3row1Col1}} \\ \hline
+		\rowcolor[HTML]{E2DEDE} 
+		\multicolumn{3}{|l|}{\cellcolor[HTML]{E2DEDE}\textbf{17. Biblografía básica}} \\ \hline
+		\multicolumn{3}{|p{15cm}|}{ \VAR{Biblobasica}} \\ \hline
+		\rowcolor[HTML]{E2DEDE} 
+		\multicolumn{3}{|l|}{\cellcolor[HTML]{E2DEDE}\textbf{18. Biblografía ampliatoria}} \\ \hline
+		\multicolumn{3}{|p{15cm}|}{ \VAR{BibloAmpliatoria}} \\ \hline
+		
+	\end{longtable}
+\end{document}

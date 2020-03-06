@@ -1,0 +1,7 @@
+env/docx-template
+__pycache__/ConversionYaml.cpython-33.pyc
+__pycache__/ConversionYaml.cpython-37.pyc
+env/pyvenv.cfg
+env/Scripts
+env/Lib
+env\docx-template

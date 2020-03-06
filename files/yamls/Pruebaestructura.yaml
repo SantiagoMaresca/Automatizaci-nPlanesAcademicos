@@ -1,0 +1,16 @@
+'1':
+- !!python/tuple
+  - Carrera
+  - Ingeniería en Informática
+'2':
+- !!python/tuple
+  - PlanEstudios
+  - '2014'
+'3':
+- !!python/tuple
+  - NombreEspañol
+  - Análisis visual de datos
+- !!python/tuple
+  - NombreIngles
+  - Data visualization analysis
+Asignatura: Análisis visual de datos

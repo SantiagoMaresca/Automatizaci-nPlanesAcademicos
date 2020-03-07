@@ -1,0 +1,119 @@
+- !!python/tuple
+  - 0
+  - - Asignatura: Análisis visual de datos
+- !!python/tuple
+  - 1
+  - - Carrera: Ingeniería en Informática
+- !!python/tuple
+  - 2
+  - - PlanEstudios: '2014'
+- !!python/tuple
+  - 3
+  - - NombreEspañol: Análisis visual de datos
+    - NombreIngles: Data visualization analysis
+- !!python/tuple
+  - 4
+  - - Docente: 'Silvia Da Rosa '
+- !!python/tuple
+  - 5
+  - - Año: Cuarto/Quinto
+- !!python/tuple
+  - 6
+  - - Semestre: Séptimo/octavo/noveno/décimo
+- !!python/tuple
+  - 7
+  - - Previas: Ingenieria de Software II, Bases de Datos
+- !!python/tuple
+  - 8
+  - - Duracion: '42:40:00'
+    - Creditos: '4'
+- !!python/tuple
+  - 9
+  - - TipoCurso: 'Materia electiva para la especialización Ingeniería de software
+
+        Electiva general para las especializaciones Infraestructura y Ciencias de
+        la computación'
+- !!python/tuple
+  - 10
+  - - T1row1Col1: X
+    - T1row2Col1: X
+    - T1row3Col1: ''
+    - T1row4Col1: ''
+    - T1row5Col1: ''
+    - T1row6Col1: ''
+    - T1row1Col2: ''
+    - T1row2Col2: ''
+    - T1row3Col2: ''
+    - T1row4Col2: ''
+    - T1row5Col2: ''
+    - T1row6Col2: ''
+- !!python/tuple
+  - 11
+  - - Resumen: 'El objetivo de este curso es introducir al alumno en conceptos básicos
+        de visualización y manejo de datos. Para ello, se comienza con una introducción
+        a la visualización y datos, y los procesos involucrados en la tarea de visualización
+        y análisis. Se exploran las componentes fundamentales involucradas en el proceso
+        de obtención, análisis, conceptualización y diagramación de datos para su
+        visualización. En cada etapa se presentan los conceptos y las tecnologías
+        básicas junto con las técnicas y los algoritmos en uso hoy en día, haciendo
+        hincapié en herramientas de código abierto y datasets reales para su procesamiento.
+
+        The goal of this course is to introduce the student to the basics of visualization
+        and data management. We start with an introduction in visualization and data,
+        and the processes involved in the task of visualization and analysis.  Exploring
+        the fundamental components involved in the process of obtaining, analyzing,
+        conceptualizing and diagramming data for its visualization. In each stage
+        the basic concepts and technologies are presented together with the techniques
+        and algorithms used nowadays, emphasizing open source tools and real datasets
+        for processing.'
+- !!python/tuple
+  - 12
+  - - Objetivos: "Objetivos educativos: \nEntendimiento de los procesos involucrados\
+        \ en la visualización de Datos.\nManejo de herramientas que permitan el análisis\
+        \ básico de datos.\nManejo de herramientas de visualización de datos."
+- !!python/tuple
+  - 13
+  - - Resultados: 'Al final de la materia, el alumno será capaz de:
+
+        Ejecutar adecuadamente el proceso para la visualización de datos.
+
+        Obtener, evaluar y transformar datos de diversas fuentes para su visualización.
+
+        Utilizar herramientas de visualización que den cuenta de los objetivos comunicacionales
+        y los tipos de datos a visualizar.'
+- !!python/tuple
+  - 14
+  - - Contenido: "Introducción: ¿Para qué visualizar datos? \nFuentes y tipos de datos:\
+        \ ¿De dónde salen los datos?\nBases de datos, estructura y tipos de datos,\
+        \ catálogos de datos.\nAnálisis de datos: ¿Cómo tratar los datos? \nLimpieza,\
+        \ normalización, análisis y cruzamiento de datos.\nAnálisis de visualización\
+        \ de datos: ¿Que quiero mostrar de los datos?\nCómo contar historias a través\
+        \ de los datos, fuentes de datos, medios para obtención de datos. Tipos de\
+        \ visualizaciones para los datos, herramientas para el análisis y visualización\
+        \ de datos.\nDiseño de visualizaciones: ¿Cómo mostrar los datos?\nExploración\
+        \ e introducción a herramientas de visualización avanzada."
+- !!python/tuple
+  - 15
+  - - T2row1Col2: Presentación de los conceptos básicos de la asignatura.
+    - T2row2Col2: Resolución de problemas prácticos semejantes a los que se pueden
+        observar en la realidad. Se plantean los problemas y los estudiantes trabajarán
+        en grupos. Luego se hace una puesta en común con la intervención del profesor.
+- !!python/tuple
+  - 16
+  - - T3row1Col1: Ejercicios prácticos que apliquen los conocimientos adquiridos en
+        clase.
+- !!python/tuple
+  - 17
+  - - Biblobasica: 'Cole Nussbaumer Knaflic: Storytelling with data - a data visualization
+        guide for business professionals.
+
+        Munzner, T., Visualization Design and Analysis: Abstractions, Principles,
+        and Methods. Book Draft, 2014.
+
+        Ward, M., Grinstein, G., Keim, D., Interactive Data Visualization: Foundations,
+        Techniques, and Applications, A K Peters/CRC Press, 2010.'
+- !!python/tuple
+  - 18
+  - - BibloAmpliatoria: '
+
+        No hay biblografía ampliatoria (lo de debajo es un cuadro de texto)'

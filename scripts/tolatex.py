@@ -31,23 +31,27 @@ latex_jinja_env = jinja2.Environment(
     autoescape            = False,
     loader                = jinja2.FileSystemLoader(os.path.abspath('./'))
 )
-template = latex_jinja_env.get_template('templates/nuevaplantilla.tex')
 
-#genera un dictionario con las variables de interés
-with open(r'../files/yamls/Analisis_Visual_Datos.yaml') as file:
-    yaml_vars = yaml.full_load(file)
+def generateLatex(yamlfile,textemplate,textogenerate):
+    template = latex_jinja_env.get_template(textemplate)
 
-template_vars=decodeData(yaml_vars)
+    #genera un dictionario yaml_vars con las variables de interés
+    with open(r'../files/yamls/'+yamlfile) as file:
+        yaml_vars = yaml.full_load(file)
 
-#crea un archivo y guarda el latex
-output_file = open('../files/texs_pdfs/pruebaestructura1.tex', 'w')
+    #decodifica el diccionario
+    template_vars=decodeData(yaml_vars)
 
-#io.open('./Latex/cambiarcar.tex', encoding='latin-1')
+    #crea un archivo latex
+    output_file = open('../files/texs_pdfs/'+textogenerate, 'w')
 
-#envía el diccionario con los nombres de las variables al render
-output_file.write( template.render( template_vars ))
-#pypandoc.convert_file('../files/texs/Analisis_Visual_Datos_.tex', 'pdf',  outputfile="../files/texs/Analisis_Visual_Datos_.pdf",extra_args=['--output=../files/texs/Analisis_Visual_Datos_.pdf'])
-output_file.close()
+    #io.open('./Latex/cambiarcar.tex', encoding='latin-1')
 
-#doc.generate_pdf("complex_report",clean_tex=False,compiler='pdflatex')
+    #envía el diccionario con los nombres de las variables al render
+    output_file.write( template.render( template_vars ))
+    #pypandoc.convert_file('../files/texs/Analisis_Visual_Datos_.tex', 'pdf',  outputfile="../files/texs/Analisis_Visual_Datos_.pdf",extra_args=['--output=../files/texs/Analisis_Visual_Datos_.pdf'])
+    output_file.close()
+
+generateLatex('Analisis_visual_de_datos.yaml','templates/nuevaplantilla.tex','pruebaestructura7.tex')
+
 

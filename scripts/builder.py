@@ -9,8 +9,8 @@ from docx import Document
 
 #Lee los campos del Archivo .docx, guarda en un dicionario 'Datos' y genera un .yaml con los datos de interes
 #Se utilizan variables Representativas del campo, o en otro caso para tablas las variables: T1row1Col1 (Table 1 row 1 Col 1 )
-def generateYaml():
-    document = Document ("Analisis_visual_de_datos.docx")
+def generateYaml(file):
+    document = Document (file)
     tables = document.tables
     datos={}
     datos[0]=[{'Asignatura': "Análisis visual de datos"}]
@@ -68,7 +68,8 @@ def generateYaml():
     datos[18]=[{'BibloAmpliatoria':tables[0].cell(39,1).text}]
 
     #se crea el archivo yaml pasando el diccionario 'datos'
-    with io.open('../files/yamls/Analisis_Visual_Datos.yaml', 'w', encoding='ISO 8859-1') as outfile:
+    yamlname=file.replace('docx','yaml')
+    with io.open('../files/yamls/'+yamlname, 'w', encoding='ISO 8859-1') as outfile:
         #print(sorted(datos))
         data=sorted(datos.items())
         print(data)
@@ -84,18 +85,6 @@ def generateYaml():
     # with io.open('data2.yaml', 'w', encoding='utf8') as outfile:
     #     yaml.dump(datos, outfile, default_flow_style=False, allow_unicode=True)
 
-def dividirCelda(texto):
-    largo=len(texto)
-    inicio=0
-    fin=30
-    cadena=""
-    if fin>=largo:
-        return texto
-    else:
-        while inicio<largo:
-            cadena=cadena+texto[inicio:fin]+' \newline '
-            inicio+=30
-            fin+=30
-        return(cadena)
 
-generateYaml()
+#se genera el Yaml para Análisis visual de datos
+generateYaml("Analisis_visual_de_datos.docx")

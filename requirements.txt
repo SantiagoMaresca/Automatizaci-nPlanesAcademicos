@@ -1,7 +1,7 @@
 docx==0.2.4
 docx2txt==0.8
 Jinja2==2.10.1
-lxml==4.4.0
+lxml==4.6.5
 Markdown==3.1.1
 MarkupSafe==1.1.1
 Pillow==6.2.0
